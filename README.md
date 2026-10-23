@@ -21,6 +21,18 @@
 
 ---
 
+## 🎁 Ainda não tem o Manus?
+
+Crie sua conta pelo link de convite abaixo. A página do convite fala em créditos grátis para começar (confira as condições na própria página):
+
+<div align="center">
+
+### 👉 [**Criar minha conta no Manus**](https://manus.im/invitation/TT2BVEECWQLDM9?utm_source=invitation&utm_medium=social&utm_campaign=copy_link) 👈
+
+</div>
+
+---
+
 ## 🧠 O problema
 
 Agente de IA cobra por **passo**, **ferramenta** e **texto**. E tem agente que:
@@ -75,16 +87,54 @@ pedido ──► classifica ──► executa no nível certo ──► verifica
 |---|---|
 | Parágrafos de contexto histórico, 3 buscas, lista de curiosidades e "posso ajudar com mais alguma coisa?" | **Canberra, cerca de 450 mil habitantes.** Uma busca, uma linha. |
 
-## 📦 Instalação
+## 📦 Passo a passo (para quem nunca fez isso)
 
-**🤖 Manus**
-1. Abra a área de **Skills**
-2. Importe o arquivo `manus-quality.skill`
-3. Substitua a versão anterior, se houver
+Leva uns 5 minutos. Siga na ordem. 👇
 
-**🧩 Claude e outros agentes compatíveis**
-- Coloque a pasta `manus-quality/` no diretório de skills da ferramenta, **ou**
-- Envie o `.skill` pela opção de upload de skills
+### 1️⃣ Crie sua conta
+Clique no link de convite lá em cima e faça o cadastro. Se já tem conta, pule para o passo 2.
+
+### 2️⃣ Baixe a skill
+Você precisa do arquivo **`manus-quality.skill`**. Salve em um lugar fácil de achar, como a Área de Trabalho. Não precisa abrir nem descompactar.
+
+### 3️⃣ Importe no Manus
+1. Entre no Manus
+2. Procure a área de **Skills** (geralmente nas configurações ou no menu do seu perfil)
+3. Escolha a opção de **importar / enviar** uma skill
+4. Selecione o arquivo `manus-quality.skill`
+5. Confirme e ative a skill
+
+> 💡 Os nomes e a posição dos menus podem mudar com o tempo. Se não achar, procure por "Skills" ou pergunte ao próprio Manus onde importar uma skill.
+
+### 4️⃣ Teste se funcionou
+Abra uma conversa nova e mande um pedido simples:
+
+```
+Qual a capital da Austrália?
+```
+
+✅ **Funcionou se** a resposta vier curta e direta, sem abertura nem enrolação.
+❌ **Não funcionou se** vier cheia de contexto e explicações. Confira se a skill está ativada e tente de novo em uma conversa nova.
+
+### 🆘 Plano B (se a importação não funcionar)
+1. Abra o arquivo `SKILL.md` (está dentro de `manus-quality/`)
+2. Copie todo o texto
+3. Cole no início de uma conversa com o Manus e diga: *"Siga estas instruções em todas as respostas desta conversa."*
+
+Funciona, mas vale só para aquela conversa. Já a skill instalada vale para todas.
+
+### 🧩 Outros agentes (Claude e compatíveis)
+Coloque a pasta `manus-quality/` no diretório de skills da ferramenta, ou use a opção de upload de skills.
+
+## ❓ Perguntas rápidas
+
+**Preciso saber programar?** Não. É só importar o arquivo e usar normalmente.
+
+**Vai deixar o Manus pior em tarefas difíceis?** Não. Em tarefas complexas ou de alto risco, ele faz o trabalho completo. A economia vem de cortar o que não serve.
+
+**Posso desativar depois?** Sim. É só desligar ou remover a skill na mesma área onde importou.
+
+**Quanto vou economizar?** Depende do seu uso. A skill reduz passos e texto desnecessários, mas não dá para prometer um número exato.
 
 ## 🗂️ Estrutura
 
