@@ -27,7 +27,7 @@ Crie sua conta pelo link de convite abaixo. A página do convite fala em crédit
 
 <div align="center">
 
-### 👉 [**Criar minha conta no Manus**](https://manus.im/invitation/TT2BVEECWQLDM9?utm_source=invitation&utm_medium=social&utm_campaign=copy_link) 👈
+### 👉 [**Crie sua conta no Manus**](https://manus.im/invitation/TT2BVEECWQLDM9?utm_source=invitation&utm_medium=social&utm_campaign=copy_link) 👈
 
 </div>
 
